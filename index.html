@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Landing Page</title>
+</head>
+
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Portfolio</h2>
+            <div class="toggle"></div>
+        </header>
+        <div video src="WB-20123.mp4" muted loop autoplay>
+            </video>
+            <video src="WB-20123.mp4" muted loop autoplay>
+            </video>
+        </div>
+        <div class="overlay"></div>
+
+        <div class="text">
+            
+            <!-- home section start -->
+            <section class="home" id="home">
+                <div class="max-width">
+                    <div class="home-content">
+                        <h1 class="text-1">Hello, my name is</h1>
+                        <h2 class="text-2">William Brown</h2>
+                        <h3 class="text-3">And I'm a <span>Freelancer</span>
+
+                        </h3>
+
+            </section>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="file:///D:/wilsbron.com/wilsbron.home/indext.html">Home</a></li>
+                    <li><a href="file:///D:/wilsbron.com/wilsbronMe/indext.html">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Teams</a></li>
+                    <li><a href="file:///D:/wilsbron.com/social%20medial%20rebuilt/index.html">Contacts</a></li>
+                </ul>
+            </div>
+
+            <script>
+                const menuToggle = document.querySelector('.toggle')
+                const showcase = document.querySelector('.showcase')
+
+                menuToggle.addEventListener('click', () => {
+                            menuToggle.classList.toggle('active')
+                                showcase.classList.toggle('active')
+                            })
+            </script>
+</body>
+
+</html>
